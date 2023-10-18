@@ -467,6 +467,73 @@ input:focus {
     margin: 4px;
 }
 
+/* VALUES */
+
+.values__container {
+    width: 100%;
+    display: flex;
+}
+
+.values__row {
+    width: 50%;
+    padding-right: 48px;
+}
+
+.values__desc {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.values__sidebyside {
+    padding-top: 32px;
+    display: flex;
+}
+
+.value__title {
+    display: flex;
+    align-items: center;
+}
+
+.value__subtitle {
+    font-size: 20px;
+}
+
+.fa-dollar-sign,
+.fa-suitcase {
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 99px;
+    border-width: 1px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-height: 28px;
+    max-width: 28px;
+    margin-right: 12px;
+}
+
+.fa-dollar-sign {
+    color: #467c59;
+    background-color: #9ae6b4;
+}
+
+.fa-suitcase {
+    color: #964f4f;
+    background-color: #feb2b2;
+}
+
+.values__button {
+    margin-top: 48px;
+}
+
+.values__img {
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
 /* LESS THAN 1024px DEVICES */
 
 @media (max-width: 1023px) {
