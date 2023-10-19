@@ -341,11 +341,8 @@ input:focus {
     max-width: 28px;
 }
 
-.value__symbols,
 .fas {
     background-color: white;
-    border-radius: 60px;
-    padding: 0.5em 0.6em;
     color: #6415ff;
 }
 
@@ -358,10 +355,6 @@ input:focus {
     display: flex;
     align-items: center;
     font-size: 24px;
-}
-
-.value__symbols {
-    margin-right: 12px;
 }
 
 .feature__para {
@@ -524,26 +517,26 @@ input:focus {
 .value__title {
     display: flex;
     align-items: center;
+    left: 0;
 }
 
 .value__subtitle {
     font-size: 20px;
 }
 
-.fa-dollar-sign,
-.fa-suitcase {
+.values__img2,
+.values__img1 {
     font-size: 20px;
     border-style: solid;
     border-radius: 99px;
-    border-width: 1px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    max-height: 28px;
-    max-width: 28px;
-    margin-right: 12px;
+    padding: .5em .6em;
+    max-height: 40px;
+    max-width: 40px;
+    margin-right: 16px;
 }
 
 .fa-dollar-sign {
@@ -556,8 +549,20 @@ input:focus {
     background-color: #feb2b2;
 }
 
+.values__img1 {
+    color: #467c59;
+    padding: 16px;
+    background-color: #9ae6b4;
+}
+
+.values__img2 {
+    color: #964f4f;
+    padding: 16px;
+    background-color: #feb2b2;
+}
+
+
 .values__img {
-    width: 50%;
     height: auto;
     display: flex;
 }
