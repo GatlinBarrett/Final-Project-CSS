@@ -114,21 +114,31 @@ li {
 }
 
 button{
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    outline: 3px solid #4299e180;
+    outline-offset: 1px;
+}
+
+.btn1,
+.btn3 {
     background-color: #6415ff;
     font-size: 14px;
     font-weight: 700;
     padding: 16px 32px;
     border-radius: 64px;
     color: #f7fafc;
-    border: none;
-    cursor: pointer;
+
     transition: all 300ms ease;
     display: flex;
     justify-content: center;;
     max-width: 160px;
 }
 
-button:hover {
+.btn1:hover {
     background-color: #5011cc;
 }
 
@@ -657,11 +667,23 @@ input:focus {
     padding: 20px 32px;
     width: 100%;
     max-width: 200px;
+    transition: 300ms ease;
+
+}
+
+.pricing__buttons:hover {
+    transform: translateX(1px) translateY(-1px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .1);
 }
 
 .business__btn {
     background-color: white;
     color: #6415ff;
+    transition: 300ms ease;
+}
+
+.business__btn:hover {
+    background-color: #e2e8f0;
 }
 
 /* BAR */
@@ -707,11 +729,23 @@ input:focus {
     background-color: #f56565;
     margin-right: 32px;
     z-index: 2;
+    transition: 300ms ease;
+}
+
+.get__started--btn:hover {
+    background-color: #e53e3e;
 }
 
 .contact__us--btn {
     border: 1px solid white;
     z-index: 2;
+    transition: 300ms ease;
+}
+
+.contact__us--btn:hover {
+    background-color: white;
+    color: #6415ff;
+    border: none;
 }
 
 .dot_1,
@@ -754,7 +788,11 @@ footer {
 
 .footer__lists {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__list {
+    width: 20%;
 }
 
 .footer__list--title {
@@ -767,6 +805,7 @@ footer {
     font-weight: 500;
     letter-spacing: 0;
     padding-top: 16px;
+    display: flex;
 }
 
 .divider {
@@ -807,8 +846,8 @@ footer {
 
 .social__link {
     background-color: white;
-    border-radius: 999px;
-    padding: .5rem;
+    border-radius: 60px;
+    padding: 0.5em 0.6em;
     margin-right: 12px;
 }
 
