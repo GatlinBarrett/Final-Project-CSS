@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/236d7fc039.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <section id="page">
@@ -47,17 +48,45 @@
                 </li>
               </ul>
             </div>
-            <button class="btn__menu">
+            <button class="btn__menu1" onclick="openMenu()">
               <i class="fas fa-bars"></i>
             </button>
+            <div class="menu__backdrop bounce__effect">
+              <button class="btn__menu2 btn__menu1--close" onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+              </button>
+            <ul class="list__menus">
+              <li class="menu__list">
+                <a href="#" class="list__item link__hover--effect" onclick="closeMenu()">About</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="list__item link__hover--effect" onclick="closeMenu()">Blog</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="list__item link__hover--effect" onclick="closeMenu()">Pricing</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="list__item link__hover--effect" onclick="closeMenu()">Contact Us</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="list__item link__hover--effect" onclick="closeMenu()">Login</a>
+              </li>
+              <li class="menu__list menu__list--primary">
+                <a href="#" class="list__item2 sign__up--btn" onclick="closeMenu()">Sign Up</a>
+              </li>
+            </ul>
+          </div>
           </nav>
         </div>
+      </div>
         <div class="dash">
           <div class="container dash__container">
             <div class="row dash__row">
               <div class="sentence">
                 <h1 class="dash__header">
-                  Beautiful React Templates&nbsp;<span class="blue">for you.</span>
+                  Beautiful React Templates&nbsp;<span class="blue"
+                    >for you.</span
+                  >
                 </h1>
               </div>
               <p class="dash__para">
@@ -609,76 +638,78 @@
           <div class="footer__list">
             <h2 class="footer__list--title white">MAIN</h2>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Blog</a>
+              <a href="#" class="link__hover--effect2 white">Blog</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">FAQs</a>
+              <a href="#" class="link__hover--effect2 white">FAQs</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Support</a>
+              <a href="#" class="link__hover--effect2 white">Support</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">About us</a>
+              <a href="#" class="link__hover--effect2 white">About us</a>
             </li>
           </div>
           <div class="footer__list">
             <h2 class="footer__list--title white">PRODUCT</h2>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Log In</a>
+              <a href="#" class="link__hover--effect2 white">Log In</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Personal</a>
+              <a href="#" class="link__hover--effect2 white">Personal</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Business</a>
+              <a href="#" class="link__hover--effect2 white">Business</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Team</a>
+              <a href="#" class="link__hover--effect2 white">Team</a>
             </li>
           </div>
           <div class="footer__list">
             <h2 class="footer__list--title white">PRESS</h2>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Logos</a>
+              <a href="#" class="link__hover--effect2 white">Logos</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Events</a>
+              <a href="#" class="link__hover--effect2 white">Events</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Stories</a>
+              <a href="#" class="link__hover--effect2 white">Stories</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Office</a>
+              <a href="#" class="link__hover--effect2 white">Office</a>
             </li>
           </div>
           <div class="footer__list">
             <h2 class="footer__list--title white">TEAM</h2>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Career</a>
+              <a href="#" class="link__hover--effect2 white">Career</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Founders</a>
+              <a href="#" class="link__hover--effect2 white">Founders</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Culture</a>
+              <a href="#" class="link__hover--effect2 white">Culture</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Onboarding</a>
+              <a href="#" class="link__hover--effect2 white">Onboarding</a>
             </li>
           </div>
           <div class="footer__list">
             <h2 class="footer__list--title white">LEGAL</h2>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">GDPR</a>
+              <a href="#" class="link__hover--effect2 white">GDPR</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Privacy Policy</a>
+              <a href="#" class="link__hover--effect2 white">Privacy Policy</a>
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Terms of Service</a>
+              <a href="#" class="link__hover--effect2 white"
+                >Terms of Service</a
+              >
             </li>
             <li class="footer__list--items">
-              <a href="" class="link__hover--effect2 white">Disclaimer</a>
+              <a href="#" class="link__hover--effect2 white">Disclaimer</a>
             </li>
           </div>
         </div>
@@ -692,11 +723,15 @@
             &copy; 2018 Treact Inc. All Rights Reserved.
           </h2>
           <div class="button__list">
-            <button class="social__link">
+            <a href="https://facebook.com" target="_blank" class="social__link facebook">
               <i class="fab fa-facebook"></i>
-            </button>
-            <button class="social__link"><i class="fab fa-twitter"></i></button>
-            <button class="social__link"><i class="fab fa-youtube"></i></button>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social__link twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" class="social__link youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
           </div>
         </div>
       </div>
