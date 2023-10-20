@@ -1155,3 +1155,12 @@ footer {
     }
 
 }
+
+/* LESS THAN 584px DEVICES */
+
+@media (max-width: 583px) {
+    .dash__header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
